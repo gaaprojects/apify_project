@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.cuzk.gov.cz)",
+      "WebFetch(domain:sreality.cz)",
+      "WebFetch(domain:bezrealitky.cz)",
+      "WebFetch(domain:nahlizenidokn.cuzk.gov.cz)",
+      "WebFetch(domain:www.sreality.cz)",
+      "WebFetch(domain:apify.com)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

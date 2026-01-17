@@ -1,0 +1,22 @@
+{
+    "name": "cuzk-fetcher",
+    "version": "1.0.0",
+    "description": "Apify actor for fetching cadastral data from CUZK WFS services",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/main.js",
+        "dev": "ts-node src/main.ts",
+        "test": "jest"
+    },
+    "dependencies": {
+        "apify": "^3.1.0",
+        "axios": "^1.6.0",
+        "fast-xml-parser": "^4.3.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.3.0",
+        "ts-node": "^10.9.0"
+    }
+}
