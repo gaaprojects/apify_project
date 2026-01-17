@@ -1,13 +1,3 @@
-I want to build an apify actor or actors that will do the webscraping for: https://cuzk.gov.cz/, https://www.sreality.cz/ and https://www.bezrealitky.cz/?utm_source=bing&utm_medium=cpc&utm_campaign=%5BG%5D_%5BS%5D_%5BTEXT%5D_250626_BRAND&utm_id=309308222&msclkid=67b2e69e5cdc1efaead18ff50817e93d 
-
-The actor from apify will webscrap the pages to extract the data from the websites, extract the main informations and save the data in a database. 
-
-Base on the houses information it will compare the prices with a Machine Learning model to see if the price is in above, below or in market price. 
-
-Then create a frontend web that will show the information, will allow to search through the houses, areas, etc. 
-
-Go step by step and take the time to build it robust and to explain the steps I need to follow.
-
 Implement the following plan:                                                                                                                                                                                                   
                                                                                                                                                                                                                                   
   # Czech Real Estate Price Analyzer - Implementation Plan                                                                                                                                                                        
