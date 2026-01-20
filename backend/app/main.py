@@ -31,14 +31,15 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS middleware
+# CORS middleware - origins configurable via CORS_ORIGINS environment variable
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=settings.cors_origins_list,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+logger.info(f"CORS enabled for origins: {settings.cors_origins_list}")
 
 # Include API routes
 app.include_router(api_router, prefix=settings.api_v1_prefix)
